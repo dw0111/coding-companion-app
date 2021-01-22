@@ -1,0 +1,10 @@
+/*
+import './bookmark.css'
+import html from './bookmark.html'
+
+export default {
+  title: 'bookmark',
+  component: html,
+}
+
+export const base = () => html
