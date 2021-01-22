@@ -7,37 +7,36 @@
   --midorgange: #ff9c86;
   --lightorgange: #ffbdaf;
   --lighterorgange: #ffded7;
-
-  --grey-shadow: 0 2px 11px #193251;
-  --orange-shade: 0 4px 10px #ff5a36;
+  --grey-shadow: 0 2px 11px rgba(25, 50, 81, 0.2);
+  --orange-shadow: 0 4px 10px rgba(255, 90, 54, 0.4);
 }
 
 .reg12 {
   font-size: 12px;
   color: var(--grey);
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .semi14 {
   font-size: 14px;
   color: var(--darkblue);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .semi16-g {
   font-size: 16px;
   color: var(--grey);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .semi16-b {
   font-size: 16px;
   color: var(--darkblue);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .bold16 {
   font-size: 16px;
   color: var(--darkblue);
-  font-weight: bold;
+  font-weight: 800;
 }
