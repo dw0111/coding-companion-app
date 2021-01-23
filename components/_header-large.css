@@ -24,3 +24,7 @@
   top: 22px;
   z-index: -1;
 }
+
+.margin-checkmark {
+  margin-left: 4.5px;
+}

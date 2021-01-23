@@ -1,0 +1,35 @@
+.energy-level-container {
+  display: grid;
+  gap: 10px;
+}
+
+.energy-level-button {
+  width: auto;
+  border-radius: 5px;
+  height: 48px;
+  place-items: center;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.energy-level-button.hundred {
+  background-color: var(--darkorange);
+  color: var(--white);
+}
+
+.energy-level-button.seventy-five {
+  background-color: var(--midorange);
+  color: var(--white);
+}
+
+.energy-level-button.fifty {
+  background-color: var(--lightorange);
+  color: var(--darkorange);
+}
+
+.energy-level-button.twenty-five {
+  background-color: var(--lighterorange);
+  color: var(--darkorange);
+}

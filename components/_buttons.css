@@ -1,0 +1,50 @@
+.rate-today-button {
+  background-color: var(--darkorange);
+  color: var(--white);
+  height: 48px;
+  width: 200px;
+  text-align: center;
+  margin: 0;
+  border: none;
+  box-shadow: var(--orange-shadow);
+  border-radius: 5px;
+}
+
+.rate-today-button__star {
+  height: 13px;
+  width: 13px;
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(116deg) brightness(113%)
+    contrast(101%);
+  margin-left: 5.67px;
+}
+
+.cancel-button {
+  background-color: var(--white);
+  color: var(--darkblue);
+  height: 48px;
+  width: 152px;
+  text-align: center;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.save-button {
+  background-color: var(--darkorange);
+  color: var(--white);
+  height: 48px;
+  width: 152px;
+  text-align: center;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-button__checkmark {
+  height: 11.2px;
+  width: auto;
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(116deg) brightness(113%)
+    contrast(101%);
+  margin-left: 5.67px;
+}
