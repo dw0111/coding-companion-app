@@ -1,0 +1,16 @@
+.header-small {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 59px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.header-background-small {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
