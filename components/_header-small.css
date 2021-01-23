@@ -1,11 +1,11 @@
 .header-small {
   position: fixed;
+  left: 0;
+  top: 0;
   height: 59px;
   width: 100%;
   display: grid;
   place-items: center;
-  left: 0;
-  top: 0;
 }
 
 .header-background-small {
@@ -14,12 +14,3 @@
   top: 0;
   z-index: -1;
 }
-
-/* .header-title {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-} */
