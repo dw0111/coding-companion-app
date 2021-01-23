@@ -9,4 +9,9 @@
   --lighterorgange: #ffded7;
   --grey-shadow: 0 2px 11px rgba(25, 50, 81, 0.2);
   --orange-shadow: 0 4px 10px rgba(255, 90, 54, 0.4);
+  --rating__Control-star-size: 65px;
+  --rating__Control-star-margin: 10px;
+  --rating__Control-star-width: var(--rating__Control-star-size) +
+    var(--rating__Control-star-margin);
+  --rating__Control-star-count: 5;
 }

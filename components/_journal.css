@@ -1,0 +1,93 @@
+/* nur ansicht button */
+
+.ansicht {
+  display: inline-block;
+  background-color: red;
+  padding: 20px;
+}
+
+div {
+  display: inline-block;
+}
+
+.rating {
+  position: relative;
+  user-select: none;
+}
+
+input {
+  visibility: hidden;
+}
+
+.rating__control {
+  position: absolute;
+  top: 0;
+  width: max-content;
+  background-image: url(../material/nfstudentsapp_assets_2020-07-16_v1/Star.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  text-indent: 100%;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.rating__control--1 {
+  position: relative;
+  left: 35px * 0;
+}
+.ratingControl-stars--2 {
+  position: relative;
+  left: 35px * 1;
+}
+.ratingControl-stars--3 {
+  position: relative;
+  left: 35px * 2;
+}
+.ratingControl-stars--4 {
+  position: relative;
+  left: 35px * 3;
+}
+.ratingControl-stars--5 {
+  position: relative;
+  left: 35px * 4;
+}
+
+/*
+.journal__rating-input::after {
+  width: 36px;
+  height: 35px;
+  background-image: url('../material/nfstudentsapp_assets_2020-07-16_v1/Star.svg');
+  background-repeat: no-repeat;
+  display: block;
+  content: '';
+}
+
+.journal__rating-input: {
+  width: 36px;
+  height: 35px;
+  background-image: url('../material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg');
+  background-repeat: no-repeat;
+  display: block;
+  content: '';
+}
+
+.journal__rating-input:checked.journal__rating-input::after {
+  display: none;
+}
+*/
+
+.journal__motto-input {
+  width: 100%;
+  padding: 18px 15px;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+}
+
+.journal__notes-input {
+  width: 100%;
+  height: 17vh;
+  padding: 18px 15px;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  resize: none;
+}
