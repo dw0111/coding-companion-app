@@ -12,6 +12,14 @@
   margin-bottom: 14px;
 }
 
+.s16--dark--uppercase {
+  font-size: 16px;
+  color: var(--darkblue);
+  font-weight: 600;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
 .tiny-heading {
   font-size: 12px;
   color: var(--midblue);
