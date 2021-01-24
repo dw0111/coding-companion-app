@@ -25,3 +25,9 @@
   margin: 0;
   line-height: 1.143;
 }
+
+.rate-today-utility {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px;
+}
