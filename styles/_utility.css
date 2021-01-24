@@ -31,3 +31,9 @@
   justify-content: center;
   margin: 0 0 20px;
 }
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 24px;
+}
