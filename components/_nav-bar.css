@@ -5,6 +5,7 @@
   border-radius: 10px;
   box-shadow: var(--grey-shadow);
   padding: 11px 29px;
+  background-color: white;
 }
 
 .navbar__icon {

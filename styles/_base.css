@@ -3,6 +3,9 @@
 }
 
 body {
+  display: grid;
+  grid-template-rows: 110px auto;
+  height: 100vh;
   font-family: 'Open Sans', sans-serif;
   font-size: 112.5%;
   line-height: 1.4;
@@ -10,8 +13,9 @@ body {
 }
 
 main {
+  grid-row: 2;
   z-index: -2;
-  padding: 0 30px;
+  padding: 0 30px 66px;
 }
 
 h1 {
@@ -41,4 +45,11 @@ p {
   font-size: 14px;
   color: var(--darkblue);
   font-weight: 400;
+}
+
+.footer {
+  padding: 0 20px 20px;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
 }
