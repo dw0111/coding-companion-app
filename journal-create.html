@@ -6,7 +6,7 @@
     <title>Code Buddies</title>
     <link rel="stylesheet" href="styles/index.css" />
   </head>
-  <body>
+  <body class="body-grid--header-small">
     <header class="header-small">
       <h1>Journal</h1>
       <img
@@ -23,27 +23,27 @@
         <div class="rating__star-box">
           <img
             class="rating__star"
-            src="../material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
+            src="./material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
             alt=""
           />
           <img
             class="rating__star"
-            src="../material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
+            src="./material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
             alt=""
           />
           <img
             class="rating__star"
-            src="../material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
+            src="./material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
             alt=""
           />
           <img
             class="rating__star"
-            src="../material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
+            src="./material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
             alt=""
           />
           <img
             class="rating__star"
-            src="../material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
+            src="./material/nfstudentsapp_assets_2020-07-16_v1/Star Copy 7.svg"
             alt=""
           />
         </div>
@@ -72,9 +72,19 @@
           type="text"
         ></textarea>
         <div class="button-section">
-          <button class="cancel-button" type="submit">Cancel</button>
+          <button
+            class="cancel-button"
+            type="submit"
+            onclick="location.href='./user-rating.html';"
+          >
+            Cancel
+          </button>
 
-          <button class="save-button" type="submit">
+          <button
+            class="save-button"
+            type="submit"
+            onclick="location.href='./user-rating.html';"
+          >
             Save<span class="margin-checkmark">&check;</span>
           </button>
         </div>
@@ -82,33 +92,33 @@
     </main>
     <footer class="footer">
       <nav class="navbar">
-        <a href="#"
+        <a href="index.html"
           ><img
             class="navbar__icon"
             src="./material/nfstudentsapp_assets_2020-07-16_v1/DashboardIcon.svg"
             alt="Dashboard"
         /></a>
-        <a href="#"
+        <a href="code-buddies.html"
           ><img
             class="navbar__icon"
             src="./material/nfstudentsapp_assets_2020-07-16_v1/BuddyIcon.svg"
             alt="Companion"
         /></a>
-        <a href="#"
+        <a href="teams.html"
           ><img
             class="navbar__icon"
             src="./material/nfstudentsapp_assets_2020-07-16_v1/TeamIcon.svg"
             alt="Teams"
         /></a>
-        <a href="#"
+        <a href="energy.html"
           ><img
-            class="navbar__icon navbar__icon--current"
+            class="navbar__icon"
             src="./material/nfstudentsapp_assets_2020-07-16_v1/EnergyIcon.svg"
             alt="Energy"
         /></a>
         <a href="#"
           ><img
-            class="navbar__icon"
+            class="navbar__icon navbar__icon--current"
             src="./material/nfstudentsapp_assets_2020-07-16_v1/JournalIcon.svg"
             alt="Journal"
         /></a>
