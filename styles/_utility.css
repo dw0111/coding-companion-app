@@ -1,14 +1,12 @@
 .s16--light {
   font-size: 16px;
   color: var(--midblue);
-  font-weight: 600;
   margin-bottom: 14px;
 }
 
 .s16--dark {
   font-size: 16px;
   color: var(--darkblue);
-  font-weight: 600;
   margin-bottom: 14px;
 }
 

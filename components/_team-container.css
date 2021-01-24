@@ -3,6 +3,7 @@
   border: 1px solid var(--grey);
   border-radius: 6px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .teams-container__name {
