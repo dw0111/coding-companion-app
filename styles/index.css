@@ -1,10 +1,11 @@
 @import './_base.css';
 @import './_variables.css';
 @import './_fonts.css';
-@import '../components/_header-small.css';
-@import '../components/_header-large.css';
-@import '../components/_rate-energy-level.css';
-@import '../components/_team-container.css';
-@import '../components/_nav-bar.css';
 @import './_utility.css';
 @import '../components/_buttons.css';
+@import '../components/_diagram.css';
+@import '../components/_header-large.css';
+@import '../components/_header-small.css';
+@import '../components/_nav-bar.css';
+@import '../components/_rate-energy-level.css';
+@import '../components/_team-container.css';
