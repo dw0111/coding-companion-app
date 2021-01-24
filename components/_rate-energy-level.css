@@ -32,4 +32,5 @@
 .energy-level-button.twenty-five {
   background-color: var(--lighterorange);
   color: var(--darkorange);
+  margin-bottom: 10px;
 }
