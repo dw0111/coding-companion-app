@@ -4,12 +4,23 @@
 
 body {
   display: grid;
-  grid-template-rows: 110px auto;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
   font-size: 112.5%;
   line-height: 1.4;
   margin: 0;
+}
+
+.body-grid--header-small {
+  grid-template-rows: 60px auto;
+}
+
+.body-grid--header-large {
+  grid-template-rows: 115px auto;
+}
+
+.body-grid--header-large-h2 {
+  grid-template-rows: 85px auto;
 }
 
 main {
@@ -32,6 +43,7 @@ h2 {
   color: var(--darkblue);
   font-weight: 600;
   line-height: 1.143;
+  margin-top: 30px;
 }
 
 input,

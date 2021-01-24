@@ -107,7 +107,7 @@ div[class*='bar'] {
   gap: 10px;
   font-size: 12px;
   line-height: 1.5;
-  margin: 10px 0 20px;
+  margin: 10px 0 0;
 }
 
 .diagram__legend--red {
