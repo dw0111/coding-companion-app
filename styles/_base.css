@@ -9,6 +9,8 @@ body {
   font-size: 112.5%;
   line-height: 1.4;
   margin: 0;
+  position: relative;
+  z-index: -2;
 }
 
 .body-grid--header-small {
@@ -25,8 +27,8 @@ body {
 
 main {
   grid-row: 2;
-  z-index: -2;
   padding: 0 30px 66px;
+  z-index: -2;
 }
 
 h1 {
