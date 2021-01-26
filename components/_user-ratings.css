@@ -1,0 +1,41 @@
+.user-motto {
+  font-size: 16px;
+  color: var(--darkblue);
+  font-weight: 600;
+}
+
+.user-rating-container {
+  box-shadow: var(--grey-shadow);
+  padding: 20px;
+  border-radius: 6px;
+  margin: 0 0 20px;
+}
+
+.user-rating-container h2 {
+  margin: 0;
+}
+
+.user-rating-container p {
+  margin: 0;
+}
+
+.user-rating-container .tiny-heading {
+  margin: 0 0 10px;
+}
+
+.margin-user-rating-container {
+  margin-top: 20px;
+}
+
+.user-rating {
+  display: flex;
+  gap: 20px;
+  width: 25px;
+  height: auto;
+}
+
+.user-comprehension {
+  display: flex;
+  gap: 6px;
+  width: 22px;
+}

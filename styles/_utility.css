@@ -1,0 +1,39 @@
+.s16--light {
+  font-size: 16px;
+  color: var(--midblue);
+  margin-bottom: 14px;
+}
+
+.s16--dark {
+  font-size: 16px;
+  color: var(--darkblue);
+  margin-bottom: 14px;
+}
+
+.s16--dark--uppercase {
+  font-size: 16px;
+  color: var(--darkblue);
+  font-weight: 600;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.tiny-heading {
+  font-size: 12px;
+  color: var(--midblue);
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.143;
+}
+
+.rate-today-utility {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 20px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 24px;
+}

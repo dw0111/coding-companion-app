@@ -1,0 +1,42 @@
+.journal-container {
+  margin-top: 30px;
+}
+
+.rating__star-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0 24px;
+}
+
+.rating__star {
+  height: 35px;
+}
+
+.rating__comprehension-box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.rating__comprehension {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--midblue);
+  border-radius: 5px;
+}
+
+.journal__motto-input {
+  width: 100%;
+  padding: 18px 15px;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+}
+
+.journal__notes-input {
+  width: 100%;
+  height: 17vh;
+  padding: 18px 15px;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  resize: none;
+}

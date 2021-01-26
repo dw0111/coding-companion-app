@@ -1,0 +1,125 @@
+.container {
+  display: grid;
+  grid-template-columns: 32px auto;
+}
+
+.diagram__energy-axis {
+  display: grid;
+  align-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.diagram__energy-axis li {
+  position: relative;
+}
+
+.diagram__energy-axis li::after {
+  content: '';
+  width: 790%;
+  border-bottom: 1px solid var(--grey);
+  position: absolute;
+  bottom: 0%;
+  left: 100%;
+  z-index: -1;
+}
+
+.diagram {
+  display: flex;
+  justify-content: space-around;
+}
+
+.diagram__two-column-set {
+  display: grid;
+  grid-template-columns: 12px 12px;
+  grid-template-rows: repeat(100 1fr);
+  height: 175px;
+}
+
+div[class*='bar'] {
+  margin: 0;
+  padding: 0;
+  border-radius: 6px 6px 0 0;
+  grid-row-end: 102;
+}
+
+.diagram__column1 {
+  grid-row-start: 1;
+}
+
+.diagram__column2 {
+  grid-row-start: 20;
+}
+
+.diagram__column3 {
+  grid-row-start: 35;
+}
+
+.diagram__column4 {
+  grid-row-start: 25;
+}
+.diagram__column5 {
+  grid-row-start: 20;
+}
+.diagram__column6 {
+  grid-row-start: 45;
+}
+.diagram__column7 {
+  grid-row-start: 53;
+}
+
+.diagram__column8 {
+  grid-row-start: 47;
+}
+
+.diagram__column9 {
+  grid-row-start: 75;
+}
+
+.diagram__column10 {
+  grid-row-start: 80;
+}
+
+.bar-orange {
+  background-color: var(--darkorange);
+}
+
+.bar-blue {
+  background-color: var(--darkblue);
+}
+
+.diagram__timeline {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.diagram__time {
+  padding-left: 3px;
+  padding-top: 10px;
+}
+
+.diagram__legend {
+  grid-column: 2;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+
+.diagram__legend--red {
+  background-color: var(--lighterorange);
+  padding: 2px 10px;
+  color: var(--darkorange);
+  border-radius: 3px;
+}
+
+.diagram__legend--blue {
+  background-color: var(--darkblue);
+  padding: 2px 10px;
+  color: white;
+  border-radius: 3px;
+}
